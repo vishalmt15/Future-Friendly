@@ -1,0 +1,63 @@
+1. What does the dollar($) sign do?
+    In Excel, a dollar sign can denote a currency format. A dollar sign in Excel is used for absolute cell referencing.
+
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+    Spreadsheet formulas are defaulted as a relative cell reference. When a formula in a cell is copied to another cell, it changes to match the new cell. 
+    In some situations, you may need to have the formula stay the same and not change, which is known as an absolute cell reference.
+    Changing a cell from a relative to an absolute reference can be done by following the steps below.
+    * Open Microsoft Excel.
+    * Highlight the cell containing the formula you want to have changed to an absolute or relative reference.
+    * Click the formula box (shown below) or highlight the formula and press the F4 key to switch between an absolute and relative cell reference.
+
+
+3. Explain the order of operations in excel?
+    When evaluating a formula, Excel follows a standard math protocol called "order of operations". 
+     In general, Excel's order of operation follows the acronym PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction) 
+     but with some customization to handle the formula syntax in a spreadsheet.
+
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax for any of two?
+    * SUM Function:- The sum function is the most used function when it comes to computing data on Excel.
+    * TEXT Function. 
+    * VLOOKUP Function. 
+    * AVERAGE Function. 
+    * CONCATENATE Function.
+     
+     Basi Syntax Of Sum Function:-
+      1.    =SUM(RANGE)
+             
+            Eg: SUM(RANGE1,RANGE2)
+   
+      2.  =Text(Value, format_text)
+
+           Eg: TEXT(A1, "d mmmm yy")
+
+
+5. When would you use the subtotal function?
+    The SUBTOTAL function is used when you display a Total row in an Excel Table. 
+    Excel inserts the SUBTOTAL function automatically, and you can use a drop-down menu to switch behavior and show max, min, average, etc.
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+    Syntax Of Vlookup Function:
+    VLOOKUP(lookup_value, table_array, col_index_num,[range_lookup]).
+     
+     * lookup_value: Lookup_value is the first parameter of excel Vlookup formula . 
+        lookup_value is a required parameter in Vlookup function in excel . 
+        Lookup value is a value which user wants to search in the first column of a range array and wants the respective row values to be returned. 
+        If excel finds lookup value in the table array it will return the respective row value of the given column in the range. Otherwise it will return #N/A error.
+
+     * table_array: Table_array is the second parameter of excel Vlookup formula. 
+        table_array is a required parameter in Vlookup function in excel. table_array is a range in Excel worksheet which user wants to search the lookup value in the first column of this table array.
+        Vlookup function is not a case sensitive.
+
+    * col_index_num: col_index_num is the third parameter of excel Vlookup formula. 
+       col_index_num is a required parameter in Vlookup function in excel.
+       We need to mention column index number in the Vlookup formula to tell Excel from which column of the given array to be picked a row value of the lookup value. 
+       Column index number should be always greater than equals to 1 and less than or equals to number of columns in the given table array range. 
+       If you specify less than 1, Vlookup formula returns #VALUE error value. And if you mention a column number which is greater than number of columns in the lookup table array range, vlookup formula returns #Ref error value.
+
+    * range lookup: range_lookup is the fourth parameter of excel formula. range_lookup is an optional parameter in Vlookup function in Excel. Range lookup parameter is to specify whether user required an exact match values or an approximate match values. 
+       If you omit this parameter, Vlookup function treat it as TRUE as default. You can mention TRUE (or 1) or FALSE (or 0) as a range lookup. Here TRUE searches for the exact match and returns the respective row values if match founds. 
+       Otherwise Vlookup returns approximate row values of the given lookup value. I.e. less than the exact match. Here TRUE and FALSE are Boolean values.
+       FALSE returns the Exact matched row values. If lookup value not found in the first column of the table array, vlookup function returns #N/A error value.

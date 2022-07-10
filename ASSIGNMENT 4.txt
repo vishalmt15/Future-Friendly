@@ -1,0 +1,36 @@
+1. To use the ribbon commands, what menu and grouping of commands will you find the Insert and Delete command?
+     The Ribbon is Excel’s command menu interface. It organizes commonly used actions together in an intuitive and visual way. These are the main parts of the Ribbon.
+     * Tabs:- organize related groups of commands together.
+     * Groups:-  organize related commands together.
+     * Command Buttons:- allows you to perform actions or open menus with further related actions.
+     * Command Menu:- some command buttons will have a small down arrow located to the right or below the button. This indicates that a menu is available with sub-commands under the             command button.
+    * Dialog Box :- certain groups in the ribbon will contain a small icon in the lower right hand corner that will launch a dialog box with further options available.
+    * Pin or Unpin Toggle:-  allows you to remove the ribbon from view to create more workbook space.
+
+
+2. If you set a row height or column width to 0 (zero), what happens to the row and column?
+    If set a row or column width to 0 (zero), excel will hide the row or column.
+
+
+3. Is there a need to change the height and width in a cell? Why?
+    It is necessary to change width and height in excel to fit the data. 
+   Excel by default provide equal width and height with respect to columns and rows. 
+   Whenever we enter a lengthy data, few characters will get displayed and other will be present inside the cell but will be hidden to the user.
+
+
+4. What is the keyboard shortcut to unhide rows?
+     Press and hold down the Ctrl and the Shift keys on the keyboard. 
+     Press and release the number 9 key without releasing the Ctrl and Shift keys. The hidden row(s) will become visible.
+
+5. How to hide rows containing blank cells?
+    * Go to the Home tab > Cells group, and click the Format button.
+    * Under Visibility, point to Hide & Unhide, and then select Hide Rows.
+
+       In case you don't want to bother remembering the location of the Hide command on the ribbon, 
+       you can access it from the context menu: right click the selected rows, and then click Hide.
+
+
+6. What are the steps to hide the duplicate values using conditional formatting in excel?
+     * Select the cells you want to check for duplicates.
+     * Click Home > Conditional Formatting > Highlight Cells Rules > Duplicate Values.
+     * In the box next to values with, pick the formatting you want to apply to the duplicate values, and then click OK.
